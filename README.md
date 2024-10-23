@@ -1,6 +1,6 @@
 # Apriori Market Basket Analysis
 
-This project implements the **Apriori algorithm** to perform market basket analysis. It identifies frequent itemsets and generates association rules based on a given dataset. The output includes rules that indicate item co-occurrences, useful for understanding customer purchasing behavior.
+This project implements the **Apriori algorithm** to perform market basket analysis. It identifies frequent item sets and generates association rules based on a given dataset. The output includes rules that indicate item co-occurrences, which are useful for understanding customer purchasing behavior.
 
 ## Table of Contents
 - [Features](#features)
@@ -21,7 +21,8 @@ The project uses a sample dataset (`msnbc990928.txt`), where:
 
 ## Results
 The output will display:
-. Frequent itemsets discovered from the dataset.
-. Association rules in the form of:
-    `{item1, item2} => {item3}`
-. A CSV file containing rules and their corresponding confidence scores.
+- Frequent itemsets discovered from the dataset.
+- Association rules in the form of:
+    ```bash
+    {item1, item2} => {item3}
+- A CSV file containing rules and their corresponding confidence scores.
